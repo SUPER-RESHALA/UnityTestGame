@@ -38,29 +38,16 @@ public class PlayerController : MonoBehaviour
     {
 moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(speed * moveInput, rb.velocity.y);
-        //Debug.Log(" FFFFFFFFFFFFFFF" + animator.GetBool("isAttack"));
-        //if (animator.GetBool("isAttack") == true || Input.GetKeyDown(KeyCode.F))
-        //{
-        //    moveInput = 0;
-        //    return;
-        //}
-        //else
-        //{
-
-        //    Debug.Log(" -------------------" + animator.GetBool("isAttack"));
-        //    rb.velocity = new Vector2(speed * moveInput, rb.velocity.y);
-        //}
+       
 
 
 
         if (moveInput == 0)
         {
             animator.SetBool("isWalking", false);
-            //Debug.Log("ISISWALKING TFALSE FALSE FALSE");
         }
         else {
             animator.SetBool("isWalking", true);
-            //Debug.Log("ISISWALKING TRUE TURE TRUE");
         }
         if (moveInput < 0)
         {

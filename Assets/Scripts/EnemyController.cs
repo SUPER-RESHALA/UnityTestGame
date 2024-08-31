@@ -46,7 +46,9 @@ public class EnemyController : MonoBehaviour
 
         if (health <= 0)
         {
-            Destroy(gameObject);
+            anim.SetTrigger("Sdeath");
+            //Destroy(gameObject);
+            Destroy(gameObject, 1f);
         }
         transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, speed * Time.deltaTime);
         //transform.Translate(Vector2.left * speed * Time.deltaTime);
@@ -76,6 +78,8 @@ public class EnemyController : MonoBehaviour
     {
         stopTime = startStopTime;
         health -= damage;
+        anim.SetTrigger("TakeDamage");
+
     }
 
     public void OnTriggerStay2D(Collider2D other)

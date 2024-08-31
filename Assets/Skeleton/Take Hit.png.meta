@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Take Hit_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 49
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fb0db3de49e5d46805f45cd1afced0
+      internalID: -2031143141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take Hit_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 49
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc801476407b3524f8ac646d3b8bfd10
+      internalID: 57847031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take Hit_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 49
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d910fb58592166447850c6e4250fdcbb
+      internalID: 151623917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take Hit_13
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 49
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b427ff5922fae4eb1765a8d9a76a56
+      internalID: 1180496423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Take Hit_0: -412490137
+      Take Hit_1: 1254134053
+      Take Hit_10: 2061881737
+      Take Hit_11: 57847031
+      Take Hit_12: 151623917
+      Take Hit_13: 1180496423
+      Take Hit_14: 367623983
+      Take Hit_15: 497237405
+      Take Hit_16: 139771870
+      Take Hit_17: 838584154
+      Take Hit_18: 536068681
+      Take Hit_19: -1224118964
+      Take Hit_2: -1237702697
+      Take Hit_20: 55311648
+      Take Hit_21: -1303696670
+      Take Hit_22: 1249052640
+      Take Hit_23: -106854663
+      Take Hit_24: -1889559516
+      Take Hit_25: 1469952710
+      Take Hit_26: -1719652880
+      Take Hit_27: -662970166
+      Take Hit_3: -1863231203
+      Take Hit_4: 74197395
+      Take Hit_5: 1341545737
+      Take Hit_6: 1258754691
+      Take Hit_7: 1968841254
+      Take Hit_8: 1285905256
+      Take Hit_9: -2031143141
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
